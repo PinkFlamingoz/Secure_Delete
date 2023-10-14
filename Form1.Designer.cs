@@ -33,6 +33,8 @@
             instructions_ToolStripMenuItem = new ToolStripMenuItem();
             exit_ToolStripMenuItem = new ToolStripMenuItem();
             groupBox_Selection = new GroupBox();
+            label_file_to_delete = new Label();
+            label_number_of_passes = new Label();
             numericUpDown_overwrite_passes = new NumericUpDown();
             button_s_delete = new Button();
             linkLabel_s_delete = new LinkLabel();
@@ -44,8 +46,6 @@
             textBox_normal_filepath = new TextBox();
             groupBox_logs = new GroupBox();
             richTextBox_logs = new RichTextBox();
-            label_number_of_passes = new Label();
-            label_file_to_delete = new Label();
             menuStrip_main_menu.SuspendLayout();
             groupBox_Selection.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown_overwrite_passes).BeginInit();
@@ -106,6 +106,26 @@
             groupBox_Selection.TabIndex = 1;
             groupBox_Selection.TabStop = false;
             groupBox_Selection.Text = "Selection";
+            // 
+            // label_file_to_delete
+            // 
+            label_file_to_delete.Anchor = AnchorStyles.None;
+            label_file_to_delete.AutoSize = true;
+            label_file_to_delete.Location = new Point(13, 88);
+            label_file_to_delete.Name = "label_file_to_delete";
+            label_file_to_delete.Size = new Size(199, 21);
+            label_file_to_delete.TabIndex = 10;
+            label_file_to_delete.Text = "Browse file to delete";
+            // 
+            // label_number_of_passes
+            // 
+            label_number_of_passes.Anchor = AnchorStyles.None;
+            label_number_of_passes.AutoSize = true;
+            label_number_of_passes.Location = new Point(392, 88);
+            label_number_of_passes.Name = "label_number_of_passes";
+            label_number_of_passes.Size = new Size(226, 21);
+            label_number_of_passes.TabIndex = 9;
+            label_number_of_passes.Text = "Enter number of passes :";
             // 
             // numericUpDown_overwrite_passes
             // 
@@ -181,14 +201,17 @@
             // button_erase_file
             // 
             button_erase_file.Anchor = AnchorStyles.None;
+            button_erase_file.BackColor = Color.Red;
+            button_erase_file.FlatAppearance.BorderColor = Color.Black;
             button_erase_file.FlatStyle = FlatStyle.Flat;
+            button_erase_file.ForeColor = Color.White;
             button_erase_file.Location = new Point(392, 28);
             button_erase_file.Margin = new Padding(4);
             button_erase_file.Name = "button_erase_file";
             button_erase_file.Size = new Size(148, 35);
             button_erase_file.TabIndex = 2;
             button_erase_file.Text = "Erase File";
-            button_erase_file.UseVisualStyleBackColor = true;
+            button_erase_file.UseVisualStyleBackColor = false;
             // 
             // textBox_s_delete_file_path
             // 
@@ -223,6 +246,7 @@
             // 
             // richTextBox_logs
             // 
+            richTextBox_logs.BackColor = SystemColors.Control;
             richTextBox_logs.Dock = DockStyle.Fill;
             richTextBox_logs.Location = new Point(4, 23);
             richTextBox_logs.Margin = new Padding(4);
@@ -230,26 +254,6 @@
             richTextBox_logs.Size = new Size(1083, 360);
             richTextBox_logs.TabIndex = 0;
             richTextBox_logs.Text = "";
-            // 
-            // label_number_of_passes
-            // 
-            label_number_of_passes.Anchor = AnchorStyles.None;
-            label_number_of_passes.AutoSize = true;
-            label_number_of_passes.Location = new Point(392, 88);
-            label_number_of_passes.Name = "label_number_of_passes";
-            label_number_of_passes.Size = new Size(226, 21);
-            label_number_of_passes.TabIndex = 9;
-            label_number_of_passes.Text = "Enter number of passes :";
-            // 
-            // label_file_to_delete
-            // 
-            label_file_to_delete.Anchor = AnchorStyles.None;
-            label_file_to_delete.AutoSize = true;
-            label_file_to_delete.Location = new Point(13, 88);
-            label_file_to_delete.Name = "label_file_to_delete";
-            label_file_to_delete.Size = new Size(199, 21);
-            label_file_to_delete.TabIndex = 10;
-            label_file_to_delete.Text = "Browse file to delete";
             // 
             // Form1
             // 
