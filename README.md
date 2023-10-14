@@ -11,11 +11,11 @@ An application that leaves no traces to recover!
  - We have 2 options:
     - A: Use my method of secure delete(that works with filling the file with 0's and then it deletes it).
     - B: Use the [Sdelete](https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete) (I just added this option because I wanted to test it.)  
- - NOTE: When using the Sdelet you must select it where you have unpacked it or simply use the source I have provided in the Sdelete folder.
+ - NOTE: When using the Sdelete you must select it where you have unpacked it or simply use the source I have provided in the Sdelete folder.
  
  ## Features
- - Deleting files so they cant be recoverd.
- - A option to use Microsofts [Sdelete](https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete).
+ - Deleting files so they cant be recovered.
+ - A option to use Microsoft [Sdelete](https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete).
  
  ## How the app looks
 ![alt text](https://github.com/PinkFlamingoz/Secure_Delete/blob/master/SD1.png)
