@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             menuStrip_main_menu = new MenuStrip();
             menu_ToolStripMenuItem = new ToolStripMenuItem();
             instructions_ToolStripMenuItem = new ToolStripMenuItem();
@@ -265,10 +266,11 @@
             Controls.Add(groupBox_Selection);
             Controls.Add(menuStrip_main_menu);
             Font = new Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip_main_menu;
             Margin = new Padding(4);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Secure Delete";
             menuStrip_main_menu.ResumeLayout(false);
             menuStrip_main_menu.PerformLayout();
             groupBox_Selection.ResumeLayout(false);
