@@ -23,6 +23,7 @@ namespace Secure_Delete
         // Functions -------------------------------------------------------------------------------------------------------------------------------------------------------
 
         // Events subscriptions ---------------------------------------------------------------------------------------------------
+
         // On form Close unsubscribe the events
         private void On_Form_Closed(object? sender, FormClosedEventArgs args)
         {

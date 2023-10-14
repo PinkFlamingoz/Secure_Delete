@@ -58,7 +58,7 @@
             menuStrip_main_menu.Location = new Point(0, 0);
             menuStrip_main_menu.Name = "menuStrip_main_menu";
             menuStrip_main_menu.Padding = new Padding(8, 3, 0, 3);
-            menuStrip_main_menu.Size = new Size(1091, 26);
+            menuStrip_main_menu.Size = new Size(1373, 26);
             menuStrip_main_menu.TabIndex = 0;
             menuStrip_main_menu.Text = "menuStrip1";
             // 
@@ -102,7 +102,7 @@
             groupBox_Selection.Margin = new Padding(4);
             groupBox_Selection.Name = "groupBox_Selection";
             groupBox_Selection.Padding = new Padding(4);
-            groupBox_Selection.Size = new Size(1091, 229);
+            groupBox_Selection.Size = new Size(1373, 229);
             groupBox_Selection.TabIndex = 1;
             groupBox_Selection.TabStop = false;
             groupBox_Selection.Text = "Selection";
@@ -111,7 +111,7 @@
             // 
             label_file_to_delete.Anchor = AnchorStyles.None;
             label_file_to_delete.AutoSize = true;
-            label_file_to_delete.Location = new Point(13, 88);
+            label_file_to_delete.Location = new Point(154, 88);
             label_file_to_delete.Name = "label_file_to_delete";
             label_file_to_delete.Size = new Size(199, 21);
             label_file_to_delete.TabIndex = 10;
@@ -121,7 +121,7 @@
             // 
             label_number_of_passes.Anchor = AnchorStyles.None;
             label_number_of_passes.AutoSize = true;
-            label_number_of_passes.Location = new Point(392, 88);
+            label_number_of_passes.Location = new Point(533, 88);
             label_number_of_passes.Name = "label_number_of_passes";
             label_number_of_passes.Size = new Size(226, 21);
             label_number_of_passes.TabIndex = 9;
@@ -130,7 +130,7 @@
             // numericUpDown_overwrite_passes
             // 
             numericUpDown_overwrite_passes.Anchor = AnchorStyles.None;
-            numericUpDown_overwrite_passes.Location = new Point(624, 86);
+            numericUpDown_overwrite_passes.Location = new Point(765, 86);
             numericUpDown_overwrite_passes.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
             numericUpDown_overwrite_passes.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             numericUpDown_overwrite_passes.Name = "numericUpDown_overwrite_passes";
@@ -142,7 +142,7 @@
             // 
             button_s_delete.Anchor = AnchorStyles.None;
             button_s_delete.FlatStyle = FlatStyle.Flat;
-            button_s_delete.Location = new Point(930, 28);
+            button_s_delete.Location = new Point(1071, 28);
             button_s_delete.Margin = new Padding(4);
             button_s_delete.Name = "button_s_delete";
             button_s_delete.Size = new Size(148, 35);
@@ -155,7 +155,7 @@
             // 
             linkLabel_s_delete.Anchor = AnchorStyles.None;
             linkLabel_s_delete.AutoSize = true;
-            linkLabel_s_delete.Location = new Point(1006, 88);
+            linkLabel_s_delete.Location = new Point(1147, 88);
             linkLabel_s_delete.Name = "linkLabel_s_delete";
             linkLabel_s_delete.Size = new Size(73, 21);
             linkLabel_s_delete.TabIndex = 6;
@@ -166,7 +166,7 @@
             // progressBar_indicator
             // 
             progressBar_indicator.Anchor = AnchorStyles.None;
-            progressBar_indicator.Location = new Point(13, 173);
+            progressBar_indicator.Location = new Point(154, 173);
             progressBar_indicator.Margin = new Padding(4);
             progressBar_indicator.Name = "progressBar_indicator";
             progressBar_indicator.Size = new Size(1065, 29);
@@ -176,7 +176,7 @@
             // 
             button_clear_logs.Anchor = AnchorStyles.None;
             button_clear_logs.FlatStyle = FlatStyle.Flat;
-            button_clear_logs.Location = new Point(548, 28);
+            button_clear_logs.Location = new Point(689, 28);
             button_clear_logs.Margin = new Padding(4);
             button_clear_logs.Name = "button_clear_logs";
             button_clear_logs.Size = new Size(148, 35);
@@ -189,7 +189,7 @@
             // 
             button_browse_file.Anchor = AnchorStyles.None;
             button_browse_file.FlatStyle = FlatStyle.Flat;
-            button_browse_file.Location = new Point(13, 28);
+            button_browse_file.Location = new Point(154, 28);
             button_browse_file.Margin = new Padding(4);
             button_browse_file.Name = "button_browse_file";
             button_browse_file.Size = new Size(148, 35);
@@ -205,7 +205,7 @@
             button_erase_file.FlatAppearance.BorderColor = Color.Black;
             button_erase_file.FlatStyle = FlatStyle.Flat;
             button_erase_file.ForeColor = Color.White;
-            button_erase_file.Location = new Point(392, 28);
+            button_erase_file.Location = new Point(533, 28);
             button_erase_file.Margin = new Padding(4);
             button_erase_file.Name = "button_erase_file";
             button_erase_file.Size = new Size(148, 35);
@@ -216,7 +216,7 @@
             // textBox_s_delete_file_path
             // 
             textBox_s_delete_file_path.Anchor = AnchorStyles.None;
-            textBox_s_delete_file_path.Location = new Point(548, 125);
+            textBox_s_delete_file_path.Location = new Point(689, 125);
             textBox_s_delete_file_path.Margin = new Padding(4);
             textBox_s_delete_file_path.Name = "textBox_s_delete_file_path";
             textBox_s_delete_file_path.Size = new Size(530, 26);
@@ -225,7 +225,7 @@
             // textBox_normal_filepath
             // 
             textBox_normal_filepath.Anchor = AnchorStyles.None;
-            textBox_normal_filepath.Location = new Point(13, 125);
+            textBox_normal_filepath.Location = new Point(154, 125);
             textBox_normal_filepath.Margin = new Padding(4);
             textBox_normal_filepath.Name = "textBox_normal_filepath";
             textBox_normal_filepath.Size = new Size(527, 26);
@@ -239,7 +239,7 @@
             groupBox_logs.Margin = new Padding(4);
             groupBox_logs.Name = "groupBox_logs";
             groupBox_logs.Padding = new Padding(4);
-            groupBox_logs.Size = new Size(1091, 387);
+            groupBox_logs.Size = new Size(1373, 466);
             groupBox_logs.TabIndex = 2;
             groupBox_logs.TabStop = false;
             groupBox_logs.Text = "Logs";
@@ -248,10 +248,11 @@
             // 
             richTextBox_logs.BackColor = SystemColors.Control;
             richTextBox_logs.Dock = DockStyle.Fill;
+            richTextBox_logs.Font = new Font("Cascadia Code", 10F, FontStyle.Regular, GraphicsUnit.Point);
             richTextBox_logs.Location = new Point(4, 23);
             richTextBox_logs.Margin = new Padding(4);
             richTextBox_logs.Name = "richTextBox_logs";
-            richTextBox_logs.Size = new Size(1083, 360);
+            richTextBox_logs.Size = new Size(1365, 439);
             richTextBox_logs.TabIndex = 0;
             richTextBox_logs.Text = "";
             // 
@@ -259,7 +260,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1091, 642);
+            ClientSize = new Size(1373, 721);
             Controls.Add(groupBox_logs);
             Controls.Add(groupBox_Selection);
             Controls.Add(menuStrip_main_menu);
